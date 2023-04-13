@@ -17,7 +17,10 @@ class Correo():
         else:
             print("Correo invalido")
 
-correo1 = Correo("jacobo@gmail.com")
-correo2 = Correo("maria@gmail.com")
-correo1.validarCorreo()
-correo2.validarCorreo()
+correo = ["jacobo@gmail.com", "maria@gmail.com"]
+
+for i in correo:
+    try:
+        Correo(i).validarCorreo()
+    except Exception as e:
+        print(e)
