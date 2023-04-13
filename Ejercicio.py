@@ -20,3 +20,4 @@ class Correo():
 correo1 = Correo("jacobo@gmail.com")
 correo2 = Correo("maria@gmail.com")
 correo1.validarCorreo()
+correo2.validarCorreo()
