@@ -11,11 +11,12 @@ class Correo():
         if re.search(patron, correo):
             if self.correo == correo:
                 print("-> Correo valido")
-                print("-> Hola Jacobo")
+                print("-> Hola", correo)
             else:
                 raise Exception("Correo inválido")
         else:
             print("Correo invalido")
 
 correo1 = Correo("jacobo@gmail.com")
+correo2 = Correo("maria@gmail.com")
 correo1.validarCorreo()
