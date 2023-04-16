@@ -17,7 +17,7 @@ class Correo():
         else:
             print("Correo invalido")
 
-correo = ["jacobo@gmail.com", "maria@gmail.com"] # lista para que poner los correos que quieras que sean válidos
+correo = ("jacobo@gmail.com", "maria@gmail.com") # lista para que poner los correos que quieras que sean válidos
 
 for i in correo:
     try:
